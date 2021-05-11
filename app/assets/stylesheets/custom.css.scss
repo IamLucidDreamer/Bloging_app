@@ -1,0 +1,53 @@
+@import "bootstrap/dist/css/bootstrap";
+.navbar
+{
+  background-color: #000000 !important;
+}
+.nav-link
+{
+  color: white !important;
+}
+#logo
+{
+  float: left;
+  font-size: 1.7em;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+#home-container
+{
+  margin-top: 25px;
+}
+.jumbotron
+{
+  // background-image: asset-url("Jumbocopy.jfif");
+  // background-position: center;
+  // background-size: cover;
+  // background-repeat: no-repeat;
+  background-color: transparent;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+#page-content {
+  flex: 1 0 auto;
+  background-color: lightgray;
+  background-image: asset-url("Jumbocopy.jfif");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#sticky-footer {
+  flex-shrink: none;
+}
+
+#page-content1 {
+  flex: 1 0 auto;
+  background-color: rgb(221, 219, 219)! important;
+}
