@@ -36,11 +36,12 @@ body {
 
 #page-content {
   flex: 1 0 auto;
-  background-color: lightgray;
+  background-color: rgba(0, 0, 0,0.4);
   background-image: asset-url("Jumbocopy.jfif");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  background-blend-mode:overlay;
 }
 
 #sticky-footer {
