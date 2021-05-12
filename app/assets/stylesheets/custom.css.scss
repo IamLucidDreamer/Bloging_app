@@ -34,21 +34,12 @@ body {
   height: 100%;
 }
 
-#page-content {
-  flex: 1 0 auto;
-  background-color: rgba(0, 0, 0,0.3);
-  background-image: asset-url("Jumbocopy.jfif");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-blend-mode:overlay;
-}
-
 #sticky-footer {
   flex-shrink: none;
 }
 
-#page-content1 {
+#page-content {
   flex: 1 0 auto;
-  background-color: rgb(221, 219, 219)! important;
+  background: rgb(139,155,245);
+background: linear-gradient(90deg, rgba(139,155,245,1) 0%, rgba(0,121,255,1) 35%, rgba(8,5,255,1) 100%);
 }
