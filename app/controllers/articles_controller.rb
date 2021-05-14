@@ -9,7 +9,7 @@ before_action :set_article, only: [:show, :edit, :update, :destroy]
   end
 
   def new
-    @article = Article.new
+    @all_the_articles = Article.paginate(page: params[:page], per_page => 30)
   end
 
   def edit
